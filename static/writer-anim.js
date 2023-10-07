@@ -1,7 +1,7 @@
 var STATE = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
-    setInterval(change_text, 6000)
+    setInterval(change_text, 6000);
 });
 
 // Switch typewriter text
