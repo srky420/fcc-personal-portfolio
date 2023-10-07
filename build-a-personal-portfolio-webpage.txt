@@ -1,0 +1,471 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="brand">
+        <h1>Folio.</h1>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li class="nav-link"><a href="#welcome-section">About</a></li>
+          <li class="nav-link"><a href="#projects">Work</a></li>
+          <li class="nav-link"><a href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero -->
+    <section class="hero" id="welcome-section">
+      <div class="hero-heading">
+        <h1>Hey I am Shahrukh</h1>
+      </div>
+      <div class="typewriter">
+          <p>a web developer</p>
+      </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <h2>These are some of my Projects</h2>
+      <div class="projects-div">
+        <a class="project project-tile" href="https://srky420.pythonanywhere.com/news/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/5hpFH37a5fQNAga_1696442105.jpg" alt="project-1">
+          <p class="project-title"><span class="project-title-decor">&lt</span> News Aggregator <span class="project-title-decor">/&gt</span> </p>
+        </a>
+        <a class="project project-tile" href="https://googles-frontend-clone.netlify.app/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/kEmZ8Q9iilDT2Nq_1696442302.jpg" alt="project-2">
+          <p class="project-title"><span class="project-title-decor">&lt</span> Google Search Clone <span class="project-title-decor">/&gt</span> </p>
+        </a>
+        <a class="project project-tile" href="https://netflix-clone-vanilla.netlify.app/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/VmzUSM3MleCz18R_1696442198.jpg" alt="project-3">
+          <p class="project-title"><span class="project-title-decor">&lt</span> Netflix Clone <span class="project-title-decor">/&gt</span> </p>
+        </a>
+        <a class="project project-tile" href="https://fcc-product-landingpage.netlify.app/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/RzBYqlx9ubN3GE9_1696444279.jpg" alt="project-4">
+          <p class="project-title"><span class="project-title-decor">&lt</span> Product Landing Page <span class="project-title-decor">/&gt</span> </p>
+        </a>
+        <a class="project project-tile" href="https://fcc-tech-docs.netlify.app/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/9NOqKmnvoWprKom_1696490848.jpg" alt="project-4">
+          <p class="project-title"><span class="project-title-decor">&lt</span> Technical Documentation <span class="project-title-decor">/&gt</span> </p>
+        </a>
+        <a class="project project-tile" href="https://fcc-tributepage-ma.netlify.app/" target="_blank">
+          <img class="project-img" src="https://imageupload.io/ib/ITsnF8iXmPsmmW2_1696495515.jpg" alt="project-4">
+          <p class="project-title"><span class="project-title-decor">&lt</span> Tribute Page <span class="project-title-decor">/&gt</span> </p>
+        </a>
+      </div>
+      <a href="#" class="see-more-btn">See More <span class="arrow-decor">&gt</span></a>
+    </section>
+    <!-- Projects end -->
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact-section">
+      <div class="contact-text">
+        <h1>Let's work together...</h1>
+        <p>How do you wanna contact me?</p>
+      </div>
+      <div class="contact-links" id="contact">
+        <ul>
+          <li><a class="contact-link" href="mailto:srky420@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a></li>
+          <li><a class="contact-link" href="https://www.linkedin.com/in/shahrukh-khan-2b8968242/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+          <li><a id="profile-link" class="contact-link" href="https://github.com/srky420" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+          <li><a class="contact-link" href="https://www.facebook.com/profile.php?id=100082964377668&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+        </ul>
+      </div>
+      <div class="tree">
+        <div class="leaves"></div>
+        <div class="leaves"></div>
+        <div class="leaves"></div>
+        <div class="bark"></div>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Shahrukh's Portfolio, 2023.</p>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Goto top btn -->
+    <a href="#welcome-section" id="goto-top"><i class="fa fa-arrow"></i></a>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --orange: #FE5F00;
+  --brown: #6A5837;
+  --light: #fff;
+  --dark: #23231A; 
+  --grey: #ccc;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--light);
+}
+
+#goto-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  width: 100%;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 2px 3px black;
+}
+
+.brand {
+  text-shadow: 3px 3px black;
+  padding: 0 1rem;
+}
+
+.brand h1::first-letter {
+  font-size: 2.5rem;
+  color: var(--orange);
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  transition: 0.2s all linear;
+}
+
+.nav-link a {
+  display: block;
+  text-decoration: none;
+  color: var(--light);
+  padding: 1.2rem 1rem;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: var(--brown);
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    30deg,
+    var(--dark),
+    rgb(5, 5, 5)
+  );
+}
+
+.hero-heading {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.hero-heading h1 {
+  letter-spacing: 0.5px;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.typewriter p {
+  width: 0%;
+  margin: 1rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--orange);
+  padding: 0;
+  letter-spacing: 0.5rem;
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-weight: 200;
+  border-right: 0.1rem solid var(--orange);
+  animation: 
+    writer 8s steps(25, end) infinite, 
+    blink .5s 1s step-end infinite;
+}
+
+@keyframes writer {
+  10% {
+    width: 0%;
+  }
+  20% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  90% {
+    width: 0%;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--orange);
+  }
+}
+
+/* Projects section */
+.projects-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background: var(--brown);
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 0 auto 3rem auto;
+  padding-top: 3rem;
+}
+
+.projects-div {
+  max-width: 1480px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project {
+  text-decoration: none;
+  color: var(--light);
+  width: 450px;
+  box-shadow: 0 0 1px 1px var(--dark);
+}
+
+.project-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.project-title {
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  background-color: var(--dark);
+  letter-spacing: 0.5px;
+}
+
+.project-title-decor {
+  color: var(--orange);
+  opacity: 0;
+  transition: 0.2s all linear;
+}
+
+.project:hover .project-title-decor {
+  opacity: 1;
+}
+
+.see-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem auto;
+  width: 160px;
+  text-decoration: none;
+  color: var(--light);
+  padding: 0.2rem 1rem;
+  border: 1px solid var(--light);
+  transition: 0.2s all linear;
+}
+
+.arrow-decor {
+  font-size: 1.5rem;
+  transition: 0.2s all linear;
+}
+
+.see-more-btn:hover {
+  background-color: var(--dark);
+  border: 1px solid var(--dark);
+}
+
+.see-more-btn:hover .arrow-decor {
+  transform: translateX(5px);
+}
+
+/* Contact */
+.contact-section {
+  position: relative;
+  min-height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: var(--dark);
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  z-index: 1;
+}
+
+.contact-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-text p {
+  color: var(--orange);
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.contact-links ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.contact-link {
+  display: block;
+  text-decoration: none;
+  color: var(--light);
+  transition: 0.2s all ease-out;
+}
+
+.contact-links ul li:hover .contact-link {
+  color: var(--orange);
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  border-top: 3px solid var(--brown);
+  background-color: var(--dark);
+  color: var(--grey);
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .see-more-btn {
+    width: 125px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  .contact-text p {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .contact-links ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  .project {
+    width: 350px;
+  }
+
+  .project-img {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 14px;
+  }
+
+  .hero-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project-img {
+    height: 250px;
+  }
+}
+
+
+** end of undefined **
+
