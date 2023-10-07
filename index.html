@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet" />
     <script src="./static/nav-collapse.js"></script>
     <script src="./static/writer-anim.js"></script>
+    <script src="./static/projects-collapse.js"></script>
     <title>Personal Portfolio</title>
 </head>
 
@@ -51,56 +52,107 @@
     <section class="projects-section" id="projects">
         <h2>These are some of my Projects</h2>
         <div class="projects-div">
-            <a class="project project-tile" href="https://srky420.pythonanywhere.com/news/" target="_blank">
+            <a class="project" href="https://srky420.pythonanywhere.com/news/" target="_blank">
                 <img class="project-img" src="./img/news-project.JPG"
                     alt="project-1" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> News Aggregator
                     <span class="project-title-decor">/&gt</span>
                 </p>
+                <div class="project-tags django">
+                    <p>Django</p>
+                </div>
             </a>
-            <a class="project project-tile" href="https://googles-frontend-clone.netlify.app/" target="_blank">
+            <a class="project" href="https://github.com/srky420/cs50-fp-bootstrap.git" target="_blank">
+                <img class="project-img" src="./img/movies-project.JPG"
+                    alt="project-4" />
+                <p class="project-title">
+                    <span class="project-title-decor">&lt</span> Movies Database App
+                    <span class="project-title-decor">/&gt</span>
+                </p>
+                <div class="project-tags flask">
+                    <p>Flask</p>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/srky420/cs50w-project4" target="_blank">
+                <img class="project-img" src="./img/socialmedia-project.JPG"
+                    alt="project-4" />
+                <p class="project-title">
+                    <span class="project-title-decor">&lt</span> Social Media App
+                    <span class="project-title-decor">/&gt</span>
+                </p>
+                <div class="project-tags django">
+                    <p>Django</p>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/srky420/cs50w-project2" target="_blank">
+                <img class="project-img" src="./img/commerce-project.JPG"
+                    alt="project-4" />
+                <p class="project-title">
+                    <span class="project-title-decor">&lt</span> Auctions App
+                    <span class="project-title-decor">/&gt</span>
+                </p>
+                <div class="project-tags django">
+                    <p>Django</p>
+                </div>
+            </a>
+            <a class="project" href="https://googles-frontend-clone.netlify.app/" target="_blank">
                 <img class="project-img" src="./img/google-project.JPG"
                     alt="project-2" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> Google Search Clone
                     <span class="project-title-decor">/&gt</span>
                 </p>
+                <div class="project-tags vanilla">
+                    <p>HTML, CSS, JS</p>
+                </div>
             </a>
-            <a class="project project-tile" href="https://netflix-clone-vanilla.netlify.app/" target="_blank">
+            <a class="project" href="https://netflix-clone-vanilla.netlify.app/" target="_blank">
                 <img class="project-img" src="./img/netflix-project.JPG"
                     alt="project-3" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> Netflix Clone
                     <span class="project-title-decor">/&gt</span>
                 </p>
+                <div class="project-tags vanilla">
+                    <p>HTML, CSS, JS</p>
+                </div>
             </a>
-            <a class="project project-tile" href="https://fcc-product-landingpage.netlify.app/" target="_blank">
+            <a class="project project-hidden" href="https://fcc-product-landingpage.netlify.app/" target="_blank">
                 <img class="project-img" src="./img/landingpage-project.JPG"
                     alt="project-4" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> Product Landing Page
                     <span class="project-title-decor">/&gt</span>
                 </p>
+                <div class="project-tags vanilla">
+                    <p>HTML, CSS, JS</p>
+                </div>
             </a>
-            <a class="project project-tile" href="https://fcc-tech-docs.netlify.app/" target="_blank">
+            <a class="project project-hidden" href="https://fcc-tech-docs.netlify.app/" target="_blank">
                 <img class="project-img" src="./img/techdoc-project.JPG"
                     alt="project-4" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> Technical Documentation
                     <span class="project-title-decor">/&gt</span>
                 </p>
+                <div class="project-tags vanilla">
+                    <p>HTML, CSS, JS</p>
+                </div>
             </a>
-            <a class="project project-tile" href="https://fcc-tributepage-ma.netlify.app/" target="_blank">
+            <a class="project project-hidden" href="https://fcc-tributepage-ma.netlify.app/" target="_blank">
                 <img class="project-img" src="./img/tributepage-project.JPG"
                     alt="project-4" />
                 <p class="project-title">
                     <span class="project-title-decor">&lt</span> Tribute Page
                     <span class="project-title-decor">/&gt</span>
                 </p>
-            </a>
+                <div class="project-tags vanilla">
+                    <p>HTML, CSS, JS</p>
+                </div>
+            </a>            
         </div>
-        <a href="#" class="see-more-btn">See More <span class="arrow-decor">&gt</span></a>
+        <a id="see-more-btn">Show More <span class="arrow-forward">&gt</span></a>
     </section>
     <!-- Projects end -->
 

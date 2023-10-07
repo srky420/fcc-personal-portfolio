@@ -186,10 +186,19 @@ html {
 }
 
 .project {
+    position: relative;
     text-decoration: none;
     color: var(--light);
     width: 450px;
     box-shadow: 0 0 1px 1px var(--dark);
+}
+
+.project-hidden {
+    display: none;
+}
+
+.project-show {
+    display: block;
 }
 
 .project-img {
@@ -217,12 +226,35 @@ html {
     opacity: 1;
 }
 
-.see-more-btn {
+.project-tags {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.9rem;
+}
+
+.project-tags p {
+    padding: 0.5rem;
+}
+
+.django {
+    background-color: #0C4B33;
+}
+
+.flask {
+    background-color: darkcyan;
+}
+
+.vanilla {
+    background-color: brown;
+}
+
+#see-more-btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 4rem auto;
-    width: 160px;
+    width: 9rem;
     text-decoration: none;
     color: var(--light);
     padding: 0.2rem 1rem;
@@ -230,18 +262,29 @@ html {
     transition: 0.2s all linear;
 }
 
-.arrow-decor {
+.arrow-forward {
     font-size: 1.5rem;
     transition: 0.2s all linear;
 }
 
-.see-more-btn:hover {
+.arrow-backward {
+    margin-left: 5px;
+    font-size: 1.5rem;
+    transition: 0.2s all linear;
+}
+
+#see-more-btn:hover {
+    cursor: pointer;
     background-color: var(--dark);
     border: 1px solid var(--dark);
 }
 
-.see-more-btn:hover .arrow-decor {
+#see-more-btn:hover .arrow-forward {
     transform: translateX(5px);
+}
+
+#see-more-btn:hover .arrow-backward {
+    transform: translateX(-5px);
 }
 
 /* Contact */
@@ -313,10 +356,6 @@ footer {
     html {
         font-size: 16px;
     }
-
-    .see-more-btn {
-        width: 125px;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -341,6 +380,12 @@ footer {
 
     .project-img {
         height: 300px;
+    }
+
+    #see-more-btn:hover {
+        background-color: transparent;
+        border: 1px solid var(--light);
+
     }
 }
 
