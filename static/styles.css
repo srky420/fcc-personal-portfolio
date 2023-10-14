@@ -34,12 +34,20 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: var(--dark);
+    align-items: center;
     width: 100%;
     font-size: 1.2rem;
     position: fixed;
     top: 0;
     box-shadow: 0 0 2px 3px black;
     z-index: 1000;
+    transition: all 0.2s ease-out;
+}
+
+.navbar-transparent {
+    position: absolute;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .brand {
@@ -68,16 +76,16 @@ html {
     color: var(--light);
     padding: 1.2rem 1rem;
     font-weight: 100;
+    transition: all 0.2s ease-out;
 }
 
 .nav-link:hover {
     cursor: pointer;
-    background-color: var(--brown);
 }
 
-.nav-link:active {
-    cursor: pointer;
-    background-color: var(--dark);
+.nav-link:hover a {
+    color: var(--orange);
+    transform: scale(1.05);
 }
 
 .nav-collapse {
@@ -423,6 +431,12 @@ footer {
 
     .nav-collapse {
         display: block;
+    }
+
+    .navbar-transparent {
+        position: fixed;
+        background-color: var(--dark);
+        box-shadow: 0 0 2px 3px black;
     }
 
     .navbar {
