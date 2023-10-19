@@ -369,12 +369,22 @@ html {
 }
 
 /* Footer */
+.divider {
+    position: absolute;
+    width: 15rem;
+    height: 0.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--brown);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
 footer {
     font-size: 0.9rem;
-    border-top: 3px solid var(--brown);
     background-color: var(--dark);
     color: var(--grey);
-    padding: 1.5rem 0;
+    padding: 1.6rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -456,6 +466,11 @@ footer {
         height: 0;
         width: 100%;
         transition: 0.2s all ease-in-out;
+    }
+
+    .nav-link:hover a {
+        color: var(--orange);
+        transform: scale(1);
     }
 
     .nav-links ul {
