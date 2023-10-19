@@ -272,6 +272,10 @@ html {
     background-color: brown;
 }
 
+.cert {
+    background-color: var(--orange);
+}
+
 #see-more-btn {
     display: flex;
     align-items: center;

@@ -13,5 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
         else {
             navbar.classList.add('navbar-transparent');
         }
+ 
     })
 });
