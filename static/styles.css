@@ -179,13 +179,15 @@ html {
     background: var(--brown);
 }
 
-.projects-section h2 {
+.projects-section .heading {
     font-size: 2rem;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin: 0 auto 3rem auto;
-    padding-top: 3rem;
+    padding: 3rem 0 0.5rem 0;
+    border-bottom: 2px solid var(--light);
+    width: fit-content;
 }
 
 .projects-div {
@@ -265,7 +267,7 @@ html {
 }
 
 .flask {
-    background-color: darkcyan;
+    background-color: teal;
 }
 
 .vanilla {
@@ -273,7 +275,7 @@ html {
 }
 
 .cert {
-    background-color: var(--orange);
+    background-color: darkslategray
 }
 
 #see-more-btn {
@@ -464,7 +466,7 @@ footer {
     .nav-show {
         height: 200px;
         visibility: visible;
-    }    
+    }   
 
     .project {
         width: 100%;
