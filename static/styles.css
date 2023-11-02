@@ -186,7 +186,7 @@ html {
     text-align: center;
     margin: 0 auto 3rem auto;
     padding: 3rem 0 0.5rem 0;
-    border-bottom: 2px solid var(--light);
+    border-bottom: 3px solid var(--light);
     width: fit-content;
 }
 
