@@ -270,12 +270,16 @@ html {
     background-color: teal;
 }
 
+.react {
+    background-color: steelblue;
+}
+
 .vanilla {
     background-color: brown;
 }
 
 .cert {
-    background-color: darkslategray
+    background-color: darkslategray;
 }
 
 #see-more-btn {
